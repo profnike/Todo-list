@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.outer{
+    background-color: orangered;
+    width: 310px;
+    height: 430px;
+    margin: 20px auto;
+    padding-top: 5px;
+    border-radius:10px;
+}
+.inner{
+    background-color: white;
+    width: 298px;
+    height: 420px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+input{
+    width: 250px;
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid black;
+}
+img{
+    width:40px;
+    height: 40px;
+   
+    
+   
+   
+}
+label{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+}
+p{
+    align-self: center;
+    color: rgb(238, 22, 58);
+}
+.add{
+   display: flex;
+}
+.remove{
+    border-radius: 14px;
+    height: 20px;
+    width: 56px;
+    background-color: white;
+    padding: 1px 5px;
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    align-self: center;
+    margin-right: 10px;
+   
+}
+#addsign{
+    height: 25px;
+    background-color: white;
+}
+#clear{
+margin-bottom: 10px;
+padding: 2px;
+background-color: white;
+border-radius: 5px;
+
+}
